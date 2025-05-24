@@ -1,0 +1,38 @@
+name: flutter_lab_assignment_3
+description: A Flutter app that displays albums and photos from JSONPlaceholder.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+
+  # Networking
+  http: ^1.2.1
+
+  # Routing
+  go_router: ^13.0.1
+
+  # UI
+  cupertino_icons: ^1.0.6
+  shimmer: ^2.0.0
+  confetti: ^0.7.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
