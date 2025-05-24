@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
-          cardTheme: CardTheme(
+          cardTheme: CardThemeData(
             color: Colors.grey[800],
             elevation: 4,
             margin: const EdgeInsets.all(8),
@@ -43,6 +43,7 @@ class MyApp extends StatelessWidget {
               borderRadius: BorderRadius.circular(12),
             ),
           ),
+
         ),
         routerConfig: router,
       ),

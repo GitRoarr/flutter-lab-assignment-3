@@ -26,6 +26,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   shimmer: ^2.0.0
   confetti: ^0.7.0
+  flutter_staggered_animations: ^1.1.0
+
 
 
 dev_dependencies:
